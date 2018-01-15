@@ -1,0 +1,17 @@
+$(document).ready(function(){
+	$("#baseInfo").click(function(){
+		$(".baseInfo").show();
+		$(".editInfo").css("display","none");
+		$(".address").css("display","none");
+	});
+	$("#editInfo").click(function(){
+		$(".editInfo").show();
+		$(".baseInfo").css("display","none");
+		$(".address").css("display","none");
+	});
+	$("#address").click(function(){
+		$(".address").show();
+		$(".baseInfo").css("display","none");
+		$(".editInfo").css("display","none");
+	});
+});

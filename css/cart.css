@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	width: 100%;
+}
+.logo img{
+	margin-left: 130px;
+}
+.all{
+	width: 900px;
+	/*padding-left: 180px;*/
+	margin-left: 180px;
+	padding: 0;
+	list-style-type: none;
+	/*background-color: #00FFFF;*/
+	border-bottom: solid 2px #EEEEEE;
+	
+}
+.all li{
+	/*background-color: #0000FF;*/
+	width: 100px;
+	padding: 12px 12px;
+	color: red;
+	font-size: 20px;
+}
+.allGoods{
+	width: 900px;
+	margin-left: 180px;
+	font-size: 15px;
+	font-weight: normal;
+}
+.allGoods td{
+	text-align: center;
+	padding: 15px 6px;
+	/*background-color: #EEEEEE;*/
+}
+.allGoods td a{
+	cursor: pointer;
+}
+.allGoods td a:hover{
+	cursor: pointer;
+	color: red;
+}
+
+
+.bottom-nav{
+	position: fixed;
+	z-index: 1;
+	right: 5%;
+	top: 80%;
+	/*right:14% ;*/
+	width: 250px;
+	height: 40px;
+	background-color: #EEEEEE;
+}
+.bottom-nav .selectAll{
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	float: left;
+	/*background-color: #000000;*/
+}
+.bottom-nav .allPrice{
+	padding: 8px;
+	width: 100px;
+	height: 40px;
+	float: left;
+	/*background-color: #000000;*/
+}
+.bottom-nav .buy{
+	width: 50px;
+	height: 25px;
+	padding: 8px;
+	float: left;
+	background-color: #F5F5F5;
+}
+.bottom-nav  .buy button{
+	width: 100%;
+	height:25px;
+	border: 0;
+	background-color: #F5F5F5;
+	color: red;
+}
+.bottom-nav .buy button:hover{
+	cursor: pointer;
+}
+.bottom-nav .selectAll a{
+	display: block;
+	padding: 8px 8px;
+}
+.bottom-nav .selectAll a:hover{
+	color: red;
+	cursor: pointer;
+
+}

@@ -1,0 +1,88 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background-color: red;
+}
+.top span{
+	display: block;
+	padding-top: 5px;
+	margin-left: 150px;
+	font-family: "华文行楷";
+	font-size: 25px;
+	color: #FFFFFF;
+}
+.left-nav{
+	width: 180px;
+	height: 600px;
+	margin-top: 15px;
+	padding: 0;
+	list-style-type: none;
+	border-right: solid 1px red;
+	float: left;
+}
+.left-nav li{
+	margin-left: 0;
+	height: 45px;
+}
+.left-nav li a{
+	display: block;
+	padding: 10px 20px;
+}
+.left-nav li a:hover{
+	cursor: pointer;
+	color: red;
+}
+.left-nav li{
+	background: url(../img/right.png) no-repeat;
+	background-size: 18px;
+	background-position: left center;
+	border-bottom: solid 1px red;
+}
+.goodManager {
+	margin-left: 5px;
+	margin-top: 5px;
+	width: 800px;
+	float: left;
+}
+.goodManager table{
+	width: 800px;
+}
+.goodManager table td{
+	text-align: center;
+}
+.addGood{
+	display: none;
+	width: 800px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.addGood span{
+	display: block;
+}
+.addGood hr{
+	border: solid 1px red;
+}
+.addGood table{
+	padding-left: 20px;
+}
+.addGood table td{
+	padding: 12px 5px;
+}
+
+.handle{
+	width: 800px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.handle table{
+	width: 800px;
+}
+.handle table td{
+	text-align: center;
+}

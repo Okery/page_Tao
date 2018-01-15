@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.evaluate{
+	position: fixed;
+	left: 35%;
+	top: 30%;
+	width: 300px;
+	height: 150px;
+	background-color: #EEEEEE;
+	
+}
+
+.evaluate .top{
+	width: 300px;
+	height: 40px;
+	background-color: red;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.evaluate .top span{
+	display: block;
+	padding-top: 8px;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: "华文行楷";
+}
+.evaluate input{
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 200px;
+	height: 25px;
+}
+.evaluate button{
+	border: 0;
+	background-color: red;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+	margin-top: 6px;
+	margin-left: 15px;
+}

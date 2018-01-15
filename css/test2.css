@@ -1,0 +1,14 @@
+.address{
+	display: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 200px;
+	height: 100px;
+	background-color: #EEEEEE;
+	position: fixed;
+	left: 40%;
+	top: 40%;
+}
+.address button{
+	margin-left: 80px;
+}

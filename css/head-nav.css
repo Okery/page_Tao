@@ -1,0 +1,47 @@
+.top-nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #eee;
+	overflow: hidden;
+}
+.top-nav li{
+	float: right;
+	/*margin-right: 150px;*/
+}
+.top-nav li.left{
+	float: left;
+	margin-left: 150px;
+	background:url(../img/tao.png) no-repeat;
+	background-size: 25px  25px;
+	background-position: center left;
+}
+.top-nav li.right-end{
+	margin-right: 150px;
+	background:url(../img/cart.png) no-repeat;
+	background-size: 25px  25px;
+	background-position: center left;
+}
+.top-nav li.my-username{
+	background:url(../img/user.png) no-repeat;
+	background-size: 25px  25px;
+	background-position: center left;
+}
+.top-nav li.my-order{
+	background:url(../img/order.png) no-repeat;
+	background-size: 35px  35px;
+	background-position: center left;
+}
+.top-nav li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 12px 35px;
+	text-align: center;
+	font-size: 15px;
+}
+.top-nav li a:hover{
+	color: red;
+	cursor: pointer;
+}

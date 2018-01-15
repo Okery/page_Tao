@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	width: 100%;
+	height: 60px;
+	background-color: red;
+}
+
+.logo span{
+	width: 200px;
+	float: left;
+	display: block;
+	margin-left: 150px;
+	padding: 15px 15px;
+	font-family: "华文行楷";
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+.logo a{
+	display: block;
+	padding: 20px 15px;
+	font-size: 15px;
+	color: #FFFFFF;
+	float: left;
+}
+.logo a:hover{
+	cursor: pointer;
+}
+
+.logo .right{
+	width: 300px;
+	height: 60px;
+	float: right;
+	margin-right: 200px;
+	padding: 15px;
+}
+.logo .right input{
+	height: 25px;
+	border: solid 2px #EEEEEE;
+}
+
+.logo .right button{
+	height: 31px;
+	width: 80px;
+	border: 0;
+	color: #666666;
+}
+.logo .right button:hover{
+	cursor: pointer;
+}
+
+.left_nav{
+	margin-top: 0;
+	padding: 0;
+	width: 120px;
+	height: 200px;
+	margin-left: 150px;
+	border: solid 1px red;
+	border-top: none;
+	list-style-type: none;
+	float: left;
+}
+.left_nav li a{
+	display: block;
+	padding: 12px 15px;
+	cursor: pointer;
+	text-align: center;
+}
+.left_nav li a:hover{
+	color: red;
+}
+
+.content{
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px;
+	width: 800px;
+	
+}
+.content table{
+	width: 800px;
+}
+.content table td{
+	text-align: center;
+}
